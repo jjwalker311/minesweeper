@@ -1,0 +1,33 @@
+table{
+    &.lose{
+        th{
+            border: 1px solid red;
+            background: white;
+        }
+
+        &.mine{
+            background: pink;
+        }
+    }
+
+    &.win{
+        th{
+            border: 1px solid green;
+            background: white;
+        }
+    }
+
+    tr{
+        th{
+            height: 20px;
+            border: 1px solid grey;
+            width: 20px;
+            background: lightgray;
+
+            &.clicked {
+                background: white;
+            }            
+        }
+    }
+
+}
